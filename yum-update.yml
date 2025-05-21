@@ -1,0 +1,6 @@
+---
+ - hosts: all
+     - name: yum update
+       import_role:
+         name: linux
+         tasks_from: yum-update
